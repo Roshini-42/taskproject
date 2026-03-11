@@ -1,16 +1,34 @@
-# task
+# Fake Store App
 
-A new Flutter project.
+A Flutter application with 3 screens: Splash, Login, and Home (Products list).
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Flutter Version Used
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter: 3.35.7
+- Dart: 3.9.2
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Steps to Run the Project
+
+1. Clone the project
+2. Run `flutter pub get`
+3. Run `flutter run`
+
+---
+
+## Test Login Credentials
+
+- Username: mor_2314
+- Password: 83r5^_
+
+---
+
+## Assumptions Made
+
+1. Products list is fetched from FakeStore API since the task only mentioned the login API.
+2. Login API returns status code 201 on success.
+3. Forgot passcode and Create account buttons are UI only.
+4. Internet connection is required to use the app.
